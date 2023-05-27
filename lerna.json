@@ -1,0 +1,10 @@
+{
+  "npmClient" : "yarn",
+  "useWorkspaces" : true,
+  "packages" : [
+    "./baseapp",
+    "./clubswan",
+    "./plcu"
+  ],
+  "version" : "independent"
+}

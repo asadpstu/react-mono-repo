@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "./baseapp",
+      "./clubswan",
+      "./plcu"
+    ]
+  },
+  "scripts": {
+    "clubswan:yarn": "yarn workspace clubswan start",
+    "plcu:yarn": "yarn workspace plcu start",
+    "clubswan:lerna": "lerna run --scope=clubswan start --stream",
+    "plcu:lerna": "lerna run --scope=plcu start --stream"
+  },
+  "devDependencies": {
+    "lerna": "^6.6.2"
+  }
+}
